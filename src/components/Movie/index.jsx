@@ -1,10 +1,11 @@
 import { Item, Title } from './styles'
 
-export const Movie = ({ id, title, openingText }) => {
+export const Movie = ({ id, name, episode, airDate }) => {
   return (
     <Item>
-      <Title>{title}</Title>
-      <p>{openingText}</p>
+      <Title>{name}</Title>
+      <h4>{episode}</h4>
+      <p>{airDate}</p>
     </Item>
   )
 }
