@@ -1,3 +1,4 @@
+import { Movie } from '../Movie'
 import { Card } from '../UI/Card'
 
 import { List, Section } from './styles'
@@ -8,7 +9,7 @@ export const MovieList = ({ movies }) => {
       <Card>
         <List>
           {movies.map((movie) => (
-            <li key={movie.id}>{movie.title}</li>
+            <Movie key={movie.id} {...movie} />
           ))}
         </List>
       </Card>
