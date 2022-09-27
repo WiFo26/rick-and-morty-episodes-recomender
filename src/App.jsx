@@ -1,5 +1,6 @@
 import './App.css'
+import { Layout } from './components/Layout'
 
 export const App = () => {
-  return <h1>Hello World</h1>
+  return <Layout>Main Content</Layout>
 }
