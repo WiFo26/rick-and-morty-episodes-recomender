@@ -1,5 +1,10 @@
 #root {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image: url(background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

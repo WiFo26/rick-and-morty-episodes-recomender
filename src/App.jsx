@@ -1,6 +1,11 @@
 import './App.css'
+import { FetchMovies } from './components/FetchMovies'
 import { Layout } from './components/Layout'
 
 export const App = () => {
-  return <Layout>Main Content</Layout>
+  return (
+    <Layout>
+      <FetchMovies />
+    </Layout>
+  )
 }
